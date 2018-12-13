@@ -11,7 +11,7 @@ and our meal form that we has right now at #23 and move later to recipe-box proj
 we also can try to combine our meal form at separated calendar plugin in order to test that everything is working fine https://github.com/GroceriStar/calendar
 
 
-answer the question - can we have this package build without having antd as dependencies here???
+answer the question - can we have this package build without having AntD as dependencies here???
 
 
 https://ant.design/docs/react/getting-started#Import-on-Demand
