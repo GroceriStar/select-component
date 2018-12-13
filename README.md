@@ -1,3 +1,14 @@
+Right now our select is bound with AntD library
+and this is not good, but at least it works as we need it at our search form project: https://github.com/ChickenKyiv/recipe-search-react
+
+we also have a separated repo for just testing this selects: https://github.com/ChickenKyiv/selects/blob/master/src/components/SearchForm/SelectContainer.js
+
+and our meal form that we has right now at #23 and move later to recipe-box project is: https://github.com/GroceriStar/react-only-intern-23 & https://github.com/ChickenKyiv/recipe-box
+
+
+we also can try to combine our meal form at separated calendar plugin in order to test that everything is working fine https://github.com/GroceriStar/calendar
+
+
 <!---
 
 [![npm version](https://badge.fury.io/js/%40groceristar%2Fgrocery-component.svg)](https://badge.fury.io/js/%40groceristar%2Fgrocery-component)
