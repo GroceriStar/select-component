@@ -13,6 +13,9 @@ we also can try to combine our meal form at separated calendar plugin in order t
 
 answer the question - can we have this package build without having antd as dependencies here???
 
+
+https://ant.design/docs/react/getting-started#Import-on-Demand
+
 <!---
 
 [![npm version](https://badge.fury.io/js/%40groceristar%2Fgrocery-component.svg)](https://badge.fury.io/js/%40groceristar%2Fgrocery-component)

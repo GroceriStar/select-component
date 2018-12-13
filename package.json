@@ -1,11 +1,8 @@
 {
-  "name": "@groceristar/grocery-component",
-  "version": "1.0.4",
-  "description": "module to use grocery components between projects",
+  "name": "@groceristar/select-component",
+  "version": "1.0.0",
+  "description": "select fields, food projects",
   "main": "lib/index.js",
-  "repository": "https://github.com/GroceriStar/grocery-react-component",
-  "author": "Arthur Tkachenko",
-  "license": "MIT",
   "private": false,
   "scripts": {
     "build": "babel src -d lib",
@@ -43,5 +40,20 @@
   "dependencies": {
     "antd": "^3.11.2",
     "uuid": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroceriStar/select-component.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ingredients"
+  ],
+  "author": "Arthur Tkachenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GroceriStar/select-component/issues"
+  },
+  "homepage": "https://github.com/GroceriStar/select-component#readme"
 }
