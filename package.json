@@ -18,8 +18,9 @@
     "test:cover": "jest --coverage"
   },
   "devDependencies": {
-    "@babel/cli": "7.2.0",
+    "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -40,6 +41,7 @@
     "access": "public"
   },
   "dependencies": {
+    "antd": "^3.11.2",
     "uuid": "^3.3.2"
   }
 }

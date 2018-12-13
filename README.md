@@ -6,8 +6,12 @@ we also have a separated repo for just testing this selects: https://github.com/
 and our meal form that we has right now at #23 and move later to recipe-box project is: https://github.com/GroceriStar/react-only-intern-23 & https://github.com/ChickenKyiv/recipe-box
 
 
+
+
 we also can try to combine our meal form at separated calendar plugin in order to test that everything is working fine https://github.com/GroceriStar/calendar
 
+
+answer the question - can we have this package build without having antd as dependencies here???
 
 <!---
 
