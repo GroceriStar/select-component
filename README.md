@@ -16,6 +16,17 @@ answer the question - can we have this package build without having AntD as depe
 
 https://ant.design/docs/react/getting-started#Import-on-Demand
 
+I want to make a 2 versions of this component: clean, without any markup
+
+and version that work with antd select - which is our current ui library
+and version with react-select - which we trying to use, but it was hard for me to make it work for our case....
+
+Hierarhy is:
+```
+    - GroupedElements
+      - SelectContainer
+```
+
 <!---
 
 [![npm version](https://badge.fury.io/js/%40groceristar%2Fgrocery-component.svg)](https://badge.fury.io/js/%40groceristar%2Fgrocery-component)
