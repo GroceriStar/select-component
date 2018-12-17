@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import _ from 'lodash';
-import Debug from './Debug';
-import SelectContainer from './SelectContainer';
+
+import Debug from '~/Select/Debug';
+import SelectContainer from '~/Select/SelectContainer';
 
 //@TODO can be updated by combining handleChange methods into one method
 // they are similar but i'm to lazy to do it.
@@ -78,6 +79,9 @@ class GroupedElements extends Component {
     this.setState({ selectedOption2: selected });
   }
 
+  //@TODO cover the case with debug component. right now we show it all the times, but i want to have an ability to hide it without biggest troubles.
+  // maybe it's better to have an additional prop - so if we have it set to true - we show debug, if now - we just hide it.
+  
   render() {
 
       // const options = this.props.options;
