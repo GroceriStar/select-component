@@ -58,11 +58,12 @@ class SelectContainer extends Component {
 
 
       return (
-        <Select mode="multiple"
-                style={{ width: '100%' }}
-                onChange={this.handleChange}
-                placeholder={this.state.placeholder}>
-              {OptionsList(options)}
+        <Select
+          mode="multiple"
+          style={{ width: '100%' }}
+          onChange={this.handleChange}
+          placeholder={this.state.placeholder}>
+          {OptionsList(options)}
         </Select>
       );
 

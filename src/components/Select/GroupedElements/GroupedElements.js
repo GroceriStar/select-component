@@ -43,7 +43,7 @@ class GroupedElements extends Component {
   // }
 
 
-  handleChange1 = (selected) => {
+  handleChange1( selected ){
 
     // really bored, and making names badly. @TODO change it, ple A se
     var clone_of_state_2 = this.state.options2;
@@ -62,7 +62,7 @@ class GroupedElements extends Component {
 
   }
 
-  handleChange2 = (selected) => {
+  handleChange2( selected ){
 
     var clone_of_state_1 = this.state.options1;
 
@@ -81,7 +81,7 @@ class GroupedElements extends Component {
 
   //@TODO cover the case with debug component. right now we show it all the times, but i want to have an ability to hide it without biggest troubles.
   // maybe it's better to have an additional prop - so if we have it set to true - we show debug, if now - we just hide it.
-  
+
   render() {
 
       // const options = this.props.options;
