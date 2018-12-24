@@ -27,6 +27,16 @@ Hierarhy is:
       - SelectContainer
 ```
 
+SelectContainer uses AntD design.
+
+ReactSelectWrapper uses React-select module
+
+
+- [ ] add ability to call components like ~"name/%Component_Folder%" == "name/Component_Folder/Component_name" at babel config
+
+- [ ] test how Creatable will handle a disabled flag(i assume ok, but we don't know it)
+
+
 <!---
 
 [![npm version](https://badge.fury.io/js/%40groceristar%2Fgrocery-component.svg)](https://badge.fury.io/js/%40groceristar%2Fgrocery-component)

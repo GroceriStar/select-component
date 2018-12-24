@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "antd": "^3.11.2",
+    "react-select": "^2.1.2",
     "uuid": "^3.3.2"
   },
   "repository": {
