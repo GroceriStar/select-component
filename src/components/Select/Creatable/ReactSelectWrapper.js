@@ -45,4 +45,4 @@ class ReactSelectWrapper extends Component {
     }
 }
 
-export defaul ReactSelectWrapper;
+export default ReactSelectWrapper;
