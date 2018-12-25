@@ -1,18 +1,17 @@
-import TodaysDate  from '~/TodaysDate'
 
+import GroupedElements    from '~/GroupedElements/GroupedElements'
 
-import GroupedElements from '~/Select/GroupedElements/GroupedElements/'
+import SelectContainer    from '~/SelectContainer/SelectContainer'
 
-import SelectContainer from '~/Select/SelectContainer/SelectContainer'
+import Debug              from '~/Debug'
 
-import Debug           from '~/Select/Debug/Debug'
-
-import ReactSelectWrapper from '~/Select/Creatable/ReactSelectWrapper'
+import ReactSelectWrapper from '~/Creatable/ReactSelectWrapper'
 
 
 export {
-
   GroupedElements,
   SelectContainer,
-  Debug
+  Debug,
+
+  ReactSelectWrapper
 };

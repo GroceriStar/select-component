@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import _ from 'lodash';
 
-import Debug from '~/Select/Debug';
-import SelectContainer from '~/Select/SelectContainer';
+import Debug from '~/Debug';
+import SelectContainer from '~/SelectContainer/SelectContainer';
 
 //@TODO can be updated by combining handleChange methods into one method
 // they are similar but i'm to lazy to do it.
