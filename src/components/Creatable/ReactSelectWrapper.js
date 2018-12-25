@@ -25,7 +25,8 @@ class ReactSelectWrapper extends Component {
     render() {
 
       const { options, onChange, value, onBlur} = this.props;
-
+      // isMulty didn't handled well. also for some additional values lets use {...data}
+       
       return(
           <Fragment>
 
