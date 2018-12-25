@@ -15,9 +15,6 @@ function toOpt(arr) {
     return Opt;
 }
 
-const Options = toOpt(getAttribute('allergies'));
-
-let allergy;
 
 class ReactSelectWrapper extends Component {
 
