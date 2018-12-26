@@ -1,6 +1,9 @@
 Right now our select is bound with AntD library
 and this is not good, but at least it works as we need it at our search form project: https://github.com/ChickenKyiv/recipe-search-react
 
+
+Simple project where i'm testing how this component work: https://github.com/ChickenKyiv/selects
+
 we also have a separated repo for just testing this selects: https://github.com/ChickenKyiv/selects/blob/master/src/components/SearchForm/SelectContainer.js
 
 and our meal form that we has right now at #23 and move later to recipe-box project is: https://github.com/GroceriStar/react-only-intern-23 & https://github.com/ChickenKyiv/recipe-box
