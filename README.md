@@ -40,6 +40,8 @@ ReactSelectWrapper uses React-select module
 - [ ] test how Creatable will handle a disabled flag(i assume ok, but we don't know it)
 
 
+- [ ] handle ingredients case - when you have 13000 items - and it's better to fetch them dynamically
+
 <!---
 
 [![npm version](https://badge.fury.io/js/%40groceristar%2Fgrocery-component.svg)](https://badge.fury.io/js/%40groceristar%2Fgrocery-component)
