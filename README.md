@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40groceristar%2Fselect-component.svg)](https://badge.fury.io/js/%40groceristar%2Fselect-component)
+
 Right now our select is bound with AntD library
 and this is not good, but at least it works as we need it at our search form project: https://github.com/ChickenKyiv/recipe-search-react
 
