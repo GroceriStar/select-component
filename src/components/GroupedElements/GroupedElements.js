@@ -17,8 +17,8 @@ class GroupedElements extends Component {
       selectedOption1: [],
       selectedOption2: [],
 
-      options1: this.props.options,
-      options2: this.props.options
+      options1: this.props.options1,
+      options2: this.props.options2
     }
 
     this.handleChange2   = this.handleChange2.bind(this);
@@ -90,6 +90,12 @@ class GroupedElements extends Component {
 
       const { options1, options2 } = this.state;
 
+      const isDebug = this.props.debug;
+      let debugTag = '<p></p>';
+      if( isDebug ){
+        debugTag = <Debug a={selectedOption1} b={selectedOption2} />;
+      }
+
       return (
         <Fragment>
           <SelectContainer
@@ -100,7 +106,8 @@ class GroupedElements extends Component {
             options={options2}
             onChange={this.handleChange2} />
 
-          <Debug a={selectedOption1} b={selectedOption2} />
+          {debugTag}
+
         </Fragment>
       );
 
