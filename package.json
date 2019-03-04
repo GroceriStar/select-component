@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/select-component",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "select fields, food projects",
   "main": "dist/index.js",
   "private": false,
