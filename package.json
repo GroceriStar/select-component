@@ -46,7 +46,7 @@
     "uuid": "^3.3.2"
   },
   "files": [
-    "dist/*.js"
+    "dist"
   ],
   "repository": {
     "type": "git",
