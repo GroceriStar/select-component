@@ -3,6 +3,7 @@
   "version": "1.0.9",
   "description": "select fields, food projects",
   "main": "dist/index.js",
+  "module":"dist/index.es.js",
   "private": false,
   "scripts": {
     "build": "babel src -d dist",
