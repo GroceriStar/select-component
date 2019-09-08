@@ -40,7 +40,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "shx": "0.3.2",
-    "standard": "13.1.0"
+    "standard": "14.1.0"
   },
   "peerDependencies": {
     "react": "^16.6.3",
