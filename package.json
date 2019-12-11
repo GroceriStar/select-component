@@ -18,7 +18,7 @@
     "lint": "standard",
     "code-fix": "standard --fix",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "7.6.3",
@@ -53,7 +53,7 @@
     "antd": "^3.11.2",
     "react-select": "^3.0.0",
     "uuid": "^3.3.2",
-    "snyk": "^1.192.4"
+    "snyk": "^1.258.2"
   },
   "files": [
     "dist"
