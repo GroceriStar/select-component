@@ -50,8 +50,8 @@
     "access": "public"
   },
   "dependencies": {
-    "antd": "^3.11.2",
-    "react-select": "^3.0.0",
+    "antd": "^5.0.0",
+    "react-select": "^4.0.0",
     "uuid": "^3.3.2",
     "snyk": "^1.192.4"
   },
